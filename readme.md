@@ -6,7 +6,7 @@ This repo holds weapon statistics / damage information of some of the guns in Th
 Hopefully The Finals will officially publish the actual configuration
 used for the guns so we don't have to do that by hand...
 
-## Update 2.0.0
+## Update 2.4.0
 
 ```
 Gun     bullets/sec |      body shots       |      head shots
@@ -16,6 +16,7 @@ Gun     bullets/sec |      body shots       |      head shots
 V9S     7.5         |  37             278   |  55              413
 XP-54   14.7        |  19             279   |  28              412
 M11     17.1        |  17             291   |  24              410
+SH1900  2.5         |  150            375   |  150             375
 FCAR    9.6         |  25             240   |  38              365
 FAMAS   8.6         |  23             198   |  35              301
 AKM     10.3        |  21             216   |  30              309
