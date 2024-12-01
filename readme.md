@@ -1,29 +1,15 @@
 
 # The Finals DPS Sheet
 
-This repo holds weapon statistics / damage information of some of the guns in The Finals
+This repo holds weapon statistics / damage / reload information of some of the guns in The Finals
 
 Hopefully The Finals will officially publish the actual configuration
 used for the guns so we don't have to do that by hand...
 
-## Update 2.4.0
-
-```
-Gun     bullets/sec |      body shots       |      head shots
--------------------------------------------------------------------
-                    |  damage/bullet  DPS   |  damage/bullet   DPS
-93R     9           |  24             216   |  37              333
-V9S     7.5         |  37             278   |  55              413
-XP-54   14.7        |  19             279   |  28              412
-M11     17.1        |  17             291   |  24              410
-SH1900  2.5         |  150            375   |  150             375
-FCAR    9.6         |  25             240   |  38              365
-FAMAS   8.6         |  23             198   |  35              301
-AKM     10.3        |  21             216   |  30              309
-```
+![stats](/stats.png)
 
 Note:
-- The `V9S` follows the click speed of the player, so this is my own CPS
+- The Light's Bow stats have not been calcualted in the same way as the other guns: it's an average over many shots while trying to shoot right at max charge
 
 ## How were these numbers computed ?
 
