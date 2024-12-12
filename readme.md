@@ -9,7 +9,7 @@ used for the guns so we don't have to do that by hand...
 ![stats](/stats.png)
 
 Note:
-- The Light's Bow stats have not been calcualted in the same way as the other guns: it's an average over many shots while trying to shoot right at max charge
+- The Light's Bow stats have not been calculated in the same way as the other guns: it's an average over many shots while trying to shoot right at max charge
 
 ## How were these numbers computed ?
 
@@ -22,9 +22,11 @@ Technical notes:
   - A bullet is considered as fired on the first video frame where the number of bullets decreases by 1, as shown in the bottom right of the screen (where you see the mag size and number of bullets remaining): those are the frames used to measure bullets/sec and reload times.
 
 Readings:
-- damage/shot: read damage dealt in a custom game with two players (enemies for each other)
-  - Use Power Shift so classes and guns can be easily switched (members of a team always spawn on the same spot, too)
+- damage/shot: read damage dealt in a custom game with two players (enemies for each other), or by reading patch notes (to lower the amount of work)
+  - Use `Power Shift` or `Cashout` modes so classes and guns can be easily switched (members of a team always spawn on the same spot, too)
   - See [videos](./videos/) with `damage` in their name, for each weapon.
+  - Patch notes:
+    - `5.0.0`: `93R` damage increased from `24` to `28`
 - shots/sec: computed by dividing
   - the time interval between the frame where the first bullet is fired and the frame where the bullet number reaches 0.
   - the number of bullets in the mag
